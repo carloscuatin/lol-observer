@@ -70,7 +70,7 @@ function spectate(game) {
             })
         })
         .on('chunk.available', function(data) {
-            //console.log('new chunk: ', data.id)
+            console.log('new chunk: ', data.id)
         })
         .on('end', function(data) {
             console.log('END')
